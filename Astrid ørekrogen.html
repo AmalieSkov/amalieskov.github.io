@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      h1 {text-align: center;}
+      h6 {text-align: center;}
+      h1 {font-size: xxx-large;}
+      h1 {font-family: 'Times New Roman', Times, serif;}
+
+
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: rgb(137, 204, 231);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+
+
+
+/*Billede række*/
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 12,5%;
+        padding: 5px;
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+
+    <div class="navbar">
+      <a href="#Home">Om os</a>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Shop
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Forestinspiration.html">Smykker</a>
+          <a href="#">Strikke opskrifter</a>
+          <a href="Perlespaender.html">Perlespænder</a>
+        </div>
+      </div>
+    </div>
+
+  </head>
+       <Body>
+        <div class="row">
+          <div class="column">
+              <a href=""><img src="Billeder/Astrid ørekrogen.jpg" alt="Ørestik" alt="Øreringe" style="width:80%"></a>
+          </div>
+          <div class="column">
+            <h1>Astrid ørekrogen</h1>
+              <div align="center"><h4>85,- pr stk.</h4></div>
+            <p>Astid ørekrogen, er en fin og enkel ørekrog som kan bruges til rigtig mange forskellige outfits.</p>
+            <h4>Materialer:</h4>
+            <p>Forgyldt 925 sterling sølv, miyuki delica perler, 5 mm ferskvandsperle, swarovski perle.</p>
+            <h4>Farver:</h4>
+            <p>Guld, hvid, gule og orange nuancer.</p>
+          </div>
+        </div>
+      </body>
+
+            <h3>Kontakt her, hvis du ønsker at købe:</h3>
+
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">Fulde navn</label>
+          <input type="text" id="fname" name="firstname" placeholder="Skriv dit fulde navn her.." required>
+
+          <label for="lname">Telefon nummer</label>
+          <input type="text" id="lname" name="lastname" placeholder="Skriv dit telefon nummer her.." required>
+
+
+          <label for="count">Mail</label>
+          <input type="text" id="lname" name="lastname" placeholder="Skriv din mail her.." required>
+
+
+          <label for="subject">Kommentar</label>
+          <textarea id="subject" name="subject" placeholder="Her skrives det du ønsker at købe.." style="height:200px"></textarea>
+
+          <input type="submit" value="Indsend">
+        </form>
+      </div>
+
+</html>
